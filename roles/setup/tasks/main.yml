@@ -1,0 +1,8 @@
+- name: homebrew installation
+  include: homebrew.yml
+
+- name: npm installation
+  include: npm.yml
+
+- name: oh my zsh installation
+  include: oh-my-zsh.yml
