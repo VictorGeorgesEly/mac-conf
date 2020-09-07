@@ -1,0 +1,95 @@
+apps:
+  pages:
+    - number: 1
+      items:
+        - folder: Productivité
+          pages:
+            - number: 1
+              items:
+                - Photo Booth
+                - Aperçu
+                - Podcasts
+                - Dictaphone
+                - Dictionnaire
+                - Maison
+                - Siri
+                - Mission Control
+        - folder: Autre
+          pages:
+            - number: 1
+              items:
+                - QuickTime Player
+                - TextEdit
+                - Grapher
+                - Time Machine
+                - Livre des polices
+                - Échecs
+                - Aide-mémoire
+                - Transfert d’images
+                - Utilitaire VoiceOver
+                - Utilitaire AirPort
+                - Assistant migration
+                - Terminal
+                - Moniteur d’activité
+                - Console
+                - Trousseaux d’accès
+                - Informations système
+                - Automator
+                - Éditeur de script
+                - Utilitaire de disque
+                - Assistant Boot Camp
+                - Colorimètre numérique
+                - Utilitaire ColorSync
+                - Capture d'écran
+                - Échange de fichiers Bluetooth
+                - Configuration audio et MIDI
+        - App Store
+        - Safari
+        - Mail
+        - Contacts
+        - Calendrier
+        - Rappels
+        - Notes
+        - FaceTime
+        - Messages
+        - Plans
+        - Localiser
+        - Photos
+        - Musique
+        - TV
+        - Bourse
+        - Livres
+        - Calculette
+        - Préférences Système
+        - Google Chrome
+        - Docker
+        - IntelliJ IDEA CE
+        - Postman
+        - VLC
+        - FileZilla
+widgets:
+  pages: []
+dock_items:
+  - Finder
+  - Launchpad
+  - Safari
+  - Mail
+  - FaceTime
+  - Messages
+  - Plans
+  - Photos
+  - Contacts
+  - Calendrier
+  - Rappels
+  - Notes
+  - Musique
+  - TV
+  - App Store
+  - Google Chrome
+  - IntelliJ IDEA CE
+  - Préférences Système
+  - Terminal
+  - ============
+  - Téléchargements
+  - Corbeille
+desktop: {}

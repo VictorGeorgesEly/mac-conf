@@ -1,0 +1,28 @@
+# Install Oh My Zsh
+---
+- name: Download OMZSH script
+  get_url:
+    url: https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+    dest: /tmp
+    mode: +x
+
+- name: Install OMZSH
+  script: /tmp/install.sh
+
+- name: Remove OMZSH script
+  file:
+    path: /tmp/install.sh
+    state: absent
+
+- name: Clone Powerline repo
+  git:
+    repo: https://github.com/powerline/fonts.git
+    dest: /tmp/powerline
+
+- name: Install Powerline fonts
+  script: /tmp/powerline/install.sh
+
+- name: Remove Powerline repo dir
+  file:
+    path: /tmp/powerline
+    state: absent

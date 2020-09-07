@@ -1,0 +1,22 @@
+---
+# make sure homebrew is installed, update brew and install applications
+
+- name: start installing homebrew cask applications
+  homebrew_cask:
+    name: "{{ item }}"
+    state: installed
+  with_items: "{{ cask_applications.all }}"
+
+- name: start installing pro applications
+  homebrew_cask:
+    name: "{{ item }}"
+    state: installed
+  with_items: "{{ cask_applications.pro }}"
+  when: pro | default('no') | bool
+
+- name: start installing perso applications
+  homebrew_cask:
+    name: "{{ item }}"
+    state: installed
+  with_items: "{{ cask_applications.perso }}"
+  when: perso | default('no') | bool

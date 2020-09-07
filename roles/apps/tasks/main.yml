@@ -1,0 +1,6 @@
+- name: Install applications
+  include: apps.yml
+
+- name: Configure Dock
+  include: dock.yml
+  when: pro is defined or perso is defined

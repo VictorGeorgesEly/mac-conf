@@ -1,0 +1,2 @@
+- name: launchpad and dock configuration
+  shell: lporg load {{ role_path }}/files/organization.yaml

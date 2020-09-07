@@ -1,0 +1,10 @@
+---
+
+- hosts: mac
+  roles:
+    - role: setup
+      tags: ['setup']
+    - role: apps
+      tags: ['apps']
+    - role: desktop
+      tags: ['desktop']

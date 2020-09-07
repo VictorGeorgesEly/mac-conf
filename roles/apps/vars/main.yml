@@ -1,0 +1,46 @@
+# list of applications to install
+general:
+  local_home: "{{ lookup('env','HOME') }}"
+
+# homebrew cask applications
+cask_applications:
+  all:
+    - google-chrome
+    - intellij-idea-ce
+    - java
+    - docker
+    - postman
+    - vlc
+    - aerial
+  pro:
+    - skype
+  perso:
+    - filezilla
+
+dock_applications:
+  pro:
+    - name: Launchpad
+      path: /Applications/Launchpad.app
+    - name: System Preferences
+      path: /Applications/System Preferences.app
+    - name: Google Chrome
+      path: /Applications/Google Chrome.app
+    - name: Calendrier
+      path: /Applications/Calendar.app
+    - name: IntelliJ IDEA
+      path: /Applications/IntelliJ IDEA.app
+    - name: Postman
+      path: /Applications/Postman.app
+  perso:
+    - name: Launchpad
+      path: /Applications/Launchpad.app
+    - name: System Preferences
+      path: /Applications/System Preferences.app
+    - name: Google Chrome
+      path: /Applications/Google Chrome.app
+    - name: IntelliJ IDEA CE
+      path: /Applications/IntelliJ IDEA CE.app
+    - name: Filezilla
+      path: /Applications/Filezilla.app
+    - name: Postman
+      path: /Applications/Postman.app
