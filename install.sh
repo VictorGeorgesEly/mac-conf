@@ -10,7 +10,7 @@ echo " ____       _   _   _                             __  __
 sudo easy_install pip
 sudo pip install ansible
 
-installdir="/tmp/setupmac-$RANDOM"
+installdir="/tmp/setupmac-$$"
 mkdir $installdir
 
 git clone https://github.com/picsous/mac-conf.git $installdir
